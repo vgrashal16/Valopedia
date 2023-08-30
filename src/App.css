@@ -1,0 +1,179 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  background-color: #101c24;
+  >*{
+    color: rgb(240, 248, 255);
+  }
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 8%;
+  background-color: rgba(254,70,84,255);
+  padding: 0;
+  margin: 0;
+  >img{
+    width: 80px;
+  }
+
+  >span{
+    font-size: 200%;
+    font-family: Valorant;
+    margin-left: 40%;
+  }
+}
+
+.agents{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.agent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10%;
+  background-color: #101c24;
+  border-radius: 4px;
+  width:80%;
+  height:80%;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+.agentImg{
+  width: 70%;
+  padding: 0;
+  margin-right: -15%;
+  margin-left: -15%;
+  margin-bottom: 6%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  >img{
+    width: 100%;
+}}
+
+.agent:hover{
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 2px 6px 2px rgba(255, 255, 255, 0.6);
+  -webkit-transition: 0.4s;
+  transition-timing-function: linear;
+  cursor: auto;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 90%;
+}
+.desc{
+  width: 170%;
+  font-size: 1.25em;
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+}
+
+.descSpan{
+  margin-top: 2%;
+}
+
+.name{
+  padding-top: 5%;
+  font-size: 4em;
+  font-family: Valorant;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info{
+  width: 120%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  >img{
+    width: 20%;
+  }
+}
+
+.role{
+  width: 30%;
+  display: flex;
+  gap: 4%;
+  flex-direction: column;
+}
+
+.roleDesc{
+    display: flex;
+    flex-direction: row;
+    >img{
+      width: 25%;
+    }
+    gap: 8%;
+    font-size: 1.5em;
+}
+.smallpotrait{
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  >img{
+    width: 45%;
+  }
+}
+
+.roleinfo{
+  text-align: left;
+  width: 150%;
+  font-style: italic;
+  font-size: 0.75em;
+  color: rgba(240, 248, 255, 0.5);
+}
+
+.ability{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.abilityBtn{
+  border: 0;
+  outline: 0;
+  width: 7em;
+  height:2em;
+  font-size: 2em;
+  color: #101c24;
+}
+
+.abilityBtn:hover{
+  background-color: #101c24;
+  color: aliceblue;
+  border:1px solid aliceblue;
+  -webkit-transition: 0.2s;
+  transition-timing-function: linear;
+  cursor: crosshair;
+}
+
+
+.agent-details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #101c24;
+  width:100vw;
+  height:100vh;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}

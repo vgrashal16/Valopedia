@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Valorant';
+  src: url('/fonts/Valorant.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Compasse';
+  src: url('/fonts/Compasse.ttf') format('truetype');
+}
+
+body{
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden
+}
+
+*{
+  font-family: Compasse;
+}
+
+#root{
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #101c24;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
